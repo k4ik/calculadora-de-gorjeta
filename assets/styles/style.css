@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./../images/restaurant-bar-coffee-shop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 380px;
+    height: 400px;
+    background-color: #D9B779;
+    border-radius: 8px;
+}
+
+.container-title {
+    background-color: #8C5230;
+    color: #260801;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form input {
+    margin-bottom: 20px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+
+}
+
+.form .calcular-btn {
+    background-color: #8C1B11;
+    border: 1px solid #260801;
+    color: #D9B779;
+    width: 150px;
+    padding: 10px 20px;
+}
+
+.resultado {
+    height: 80px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width:425px) {
+    .container-title {
+        font-size: 10px;
+    }
+
+    .container {
+        width: 300px;
+    }
+}
